@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2853910375428780439
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2853910375428780437}
+  - component: {fileID: 2853910375428780436}
+  m_Layer: 0
+  m_Name: _ Oil Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2853910375428780437
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2853910375428780439}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 329.39813, y: 1506.468, z: -369.14706}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2853910375428780436
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2853910375428780439}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ddd3e4e29d2cdc54281d75ef5d3075b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _start: {fileID: 0}
+  _end: {fileID: 0}
+  _pin: {fileID: 0}
+  _filler: {fileID: 0}
+  oilAmount: 100
+  currentOilAmount: 0
+  currentQuality: 0
+  decreaseValue: 9
+  flickingSpeed: 0.2
+  initialQuality: 0.6
+  waitBeforeFail: 2.5
+  initialFuelStart: 75
+  boostPower: 200
+  boosTime: 2.5
+  emptyDepotBrake: 300
+  oilToCoinMuiltiplier: 2
+  isBoosted: 0
+  isEmpty: 0
+  collected: 0
+  gameStart: 0
+  isGreen: 0
